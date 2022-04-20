@@ -8,8 +8,6 @@ import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 
-require("../includes/api_parse")
-
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
